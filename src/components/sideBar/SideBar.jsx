@@ -1,10 +1,12 @@
 import { MDBIcon } from "mdb-react-ui-kit";
-import React from "react";
+import React, { useContext } from "react";
+import Context from "../../source/context";
 import "./SideBar.css";
 const SideBar = () => {
+  const { sidebar } = useContext(Context);
   return (
     <div>
-      <div className="displayPictur">
+      <div className={`displayPictur ${sidebar?"displayPicturhide":""}`}>
         <div className="UserDetails">
           <div className="imageProfile">
             <img

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import {
   MDBContainer,
   MDBNavbar,
@@ -13,8 +13,14 @@ import {
   MDBInput,
 } from "mdb-react-ui-kit";
 import "./Header.css";
+import Context from "../../source/context";
 export default function App() {
   const [showNav, setShowNav] = useState(false);
+  const {sidebar,setsidebar} = useContext(Context);
+
+  const toggleside = ()=>{
+    setsidebar(!sidebar)
+  }
 
   return (
     <MDBNavbar expand="lg" light bgColor="light">
@@ -39,7 +45,7 @@ export default function App() {
             <MDBIcon fas icon="search" />
           </MDBBtn>
         </MDBInputGroup>
-        <p className="MenuOpner m-4">menu</p>
+        <button onClick={toggleside} className="MenuOpner m-4">menu</button>
         <MDBNavbarToggler
           type="button"
           aria-expanded="false"

@@ -6,8 +6,16 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .displayPictur{
+    .displayPicturhide{
         display: none;
+    }
+    .displayPictur{
+       
+        position: relative;
+        background: rgb(244,241,241);
+        background: linear-gradient(0deg, rgba(244,241,241,1) 37%, rgba(198,192,192,1) 100%);
+        z-index: 1;
+
     }
     
 }
