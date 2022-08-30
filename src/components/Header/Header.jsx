@@ -45,7 +45,7 @@ export default function App() {
             <MDBIcon fas icon="search" />
           </MDBBtn>
         </MDBInputGroup>
-        <button onClick={toggleside} className="MenuOpner m-4">menu</button>
+        <button onClick={toggleside} className="MenuOpner m-4"><MDBIcon far icon="caret-square-down" /> menu</button>
         <MDBNavbarToggler
           type="button"
           aria-expanded="false"

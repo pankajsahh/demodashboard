@@ -4,7 +4,7 @@ import Context from "./context"
 const Store = (props)=>{
 
     const [sidebar,setsidebar] = useState(true);
-    console.log(sidebar)
+   
 
 
 

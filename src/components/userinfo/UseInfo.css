@@ -1,4 +1,6 @@
 .Userupdates{
+    width: 16rem;
+    background-color: white;
     box-shadow: 0px 1px 7px 0px rgb(194, 190, 190);
     border-radius: 2px;
     margin: 15px;
@@ -9,4 +11,40 @@
 .Userupdates i{
     margin: 0 20px;
     color: red;
+}
+
+
+
+
+.chartrevanue{
+    width: 100%;
+    padding: 15px;
+    /* border: 1px solid  red; */
+    display: flex;
+    background-color: white;
+}
+.revanuepie{
+    width: 120px;
+    /* border: 1px solid  red; */
+}
+.revenueAmount{
+    width: 75%;
+    /* border: 1px solid  red; */
+
+}
+.TotalSales{
+    padding-left: 3rem ;
+}
+.revanuepie{
+    width: 25%;
+    /* border: 1px solid  red; */
+
+}
+.revanueDetails{
+    display: flex;
+    /* border: 1px solid  red; */
+    justify-content: space-around;
+}
+.revenueAmount span{
+    font-size: 13px;
 }

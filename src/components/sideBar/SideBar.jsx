@@ -5,7 +5,7 @@ import "./SideBar.css";
 const SideBar = () => {
   const { sidebar } = useContext(Context);
   return (
-    <div>
+    <div className="PopingSideBar">
       <div className={`displayPictur ${sidebar?"displayPicturhide":""}`}>
         <div className="UserDetails">
           <div className="imageProfile">

@@ -2,7 +2,9 @@
     display: none;
 
 }
-
+.MenuOpner i{
+color: blue;
+}
 @media only screen and (max-width: 600px) {
     .MenuOpner{
        

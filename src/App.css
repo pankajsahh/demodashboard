@@ -2,4 +2,14 @@
     display: flex;
    
 }
+.mainPage{
+    display: table-cell;
+    width: 100% !important;
+    vertical-align: top;
+    background-color: rgb(231, 226, 226);
+}
+.PopingSideBar{
+    display: table-cell;
+    min-width: 15rem;
+}
 

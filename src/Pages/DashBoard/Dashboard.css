@@ -1,5 +1,5 @@
-.mainPage{
-    margin: 5px;
+.DashBoardApps{
+    padding: 0 15px;
 }
 @media only screen and (max-width: 600px) {
     .mainPage{
@@ -9,4 +9,52 @@
 }
 .BasicDetails{
     margin: 2rem;
+}
+.twotwogroup{
+    display: flex;
+    flex-wrap: wrap;
+}
+.revanueDisplayer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.revanuegraph{
+    background-color: white;
+    flex: 4 1 0;
+    /* margin-right: 20px; */
+    padding: 10px;
+}
+.fiveRevenueShow{
+    flex: 5 1 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.oneRevanueShow{
+    width: 92%;
+    flex: 1 2 0;
+}
+.fourrevanueShow{
+    flex: 1 2 0;
+}
+.LossGain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+.LossGain span,h5{
+   font-size: 12px !important;
+}
+
+.ProfileFollow{
+    border: 1px solid red;
+    width: 30%;
 }
