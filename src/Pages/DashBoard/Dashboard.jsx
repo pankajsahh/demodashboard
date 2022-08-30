@@ -3,6 +3,7 @@ import React from 'react'
 import ActivityGraph from '../../components/graph/ActivityGraph';
 import ChartsPage from '../../components/userinfo/DonutChart';
 import Costomerreview from '../../components/userinfo/UserInfo';
+import Portfolio from '../../components/userPortfolio/Portfolio';
 import './Dashboard.css'
 const Dashboard = () => {
     return (
@@ -52,7 +53,7 @@ const Dashboard = () => {
                 </div>
                 <div className="FeaturesBuilding">
                     <div className="ProfileFollow">
-                        something
+                        <Portfolio/>
                     </div>
                     <div className="TaskManager">
                         something

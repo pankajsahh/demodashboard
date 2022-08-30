@@ -53,8 +53,47 @@
 .LossGain span,h5{
    font-size: 12px !important;
 }
+.FeaturesBuilding{
+    border: 1px solid red;
 
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
 .ProfileFollow{
     border: 1px solid red;
-    width: 30%;
+margin:5px;
+    width: 18em;
+    flex: 0 0 32.333333%;
+    background-color: white;
+}
+.TaskManager{
+    border: 1px solid red;
+margin:5px;
+    flex: 0 0 32.333333%;
+    width: 18em;
+}
+.OurClient{
+    flex: 0 0 32.333333%;
+    border: 1px solid red;
+margin:5px;
+    width: 18em;
+}
+.ShirtSelling{
+    flex: 0 0 32.333333%;
+    border: 1px solid red;
+margin:5px;
+    width: 18em;
+}
+.TwitterFollow{
+    flex: 0 0 32.333333%;
+    border: 1px solid red;
+margin:5px;
+    width: 18em;
+}
+.ClientChat{
+    flex: 0 0 32.333333%;
+    border: 1px solid red;
+margin:5px;
+    width: 18em;
 }
