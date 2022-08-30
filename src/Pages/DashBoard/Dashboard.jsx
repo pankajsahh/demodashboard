@@ -1,4 +1,4 @@
-import { MDBBreadcrumb, MDBBreadcrumbItem, MDBContainer, MDBNavbar } from 'mdb-react-ui-kit';
+import { MDBBreadcrumb, MDBBreadcrumbItem, MDBContainer, MDBIcon, MDBNavbar } from 'mdb-react-ui-kit';
 import React from 'react'
 import Ourclients from '../../components/clientList/OurClient';
 import ActivityGraph from '../../components/graph/ActivityGraph';
@@ -62,22 +62,32 @@ const Dashboard = () => {
                         </div>
                     </div>
                     <div className="div">
-                        <div className="ShirtSelling">
-                            something
+                        <div className="ShirtSellings">
+                            <h4>Classic Shirt</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <MDBIcon fas icon="shopping-cart" />
+                             <span>$58 <strike>$74</strike></span>
                         </div>
-                        <div className="TwitterFollow">
-                            something
+                        <div className="YourTask">
+                        task maanager
                         </div>
 
                     </div>
                     <div className="div">
-                        <div className="ShirtSelling">
-                            something
-                        </div>
                         <div className="TwitterFollow">
-                            something
-                        </div>
+                            <div className="twitterid">
+                                <MDBIcon size='3x' fab icon="twitter" />
+                                <div className="twitterinfo">
+                                    <h5>Envato</h5>
+                                    <p>Corporate of web</p>
+                                </div>
+                            </div>
+                            No tweet today available
 
+                        </div>
+                        <div className="ChatWithOwner">
+                        ChatWithOwner
+                        </div>
                     </div>
 
 

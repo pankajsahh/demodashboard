@@ -73,15 +73,66 @@
     width: 20em;
     background-color: white;
 }
-.ShirtSelling{
+.ShirtSellings{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqKq0zGmwM8SuiOvX6A6vpcmQ6Gs_PekhwvxD2xvXMdQ&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
     margin: 15px 10px;
     width: 20em;
     height: 17em;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 15px;
+}
+.ShirtSellings p,.ShirtSellings h4 {
+    color: white;
+}
+.ShirtSellings span,.ShirtSellings i{
+    color: orangered;
+} 
+.ShirtSellings span strike{
+    color: white !important;
 }
 .TwitterFollow{
     margin: 15px 10px;
     width: 20em;
-    height: 20em;
+    height: 17em;
+    background-color: white;
+    padding: 20px;
+}
+.TwitterFollow i{
+    color: rgb(168, 232, 252);
+}
+.twitterid{
+    display: flex;
+}
+.twitterinfo{
+    margin-left: 5px;
+}
+.twitterinfo h5{
+    margin: 0;
+    padding: 0;
+}
+.twitterinfo p{
+    font-size: 12px;
+}
+
+
+
+
+.ChatWithOwner{
+    margin: 15px 10px;
+    width: 20em;
+    height: 22em;
     background-color: white;
 }
+.YourTask{
+    margin: 15px 10px;
+    width: 20em;
+    height: 22em;
+    background-color: white;
+}
+
