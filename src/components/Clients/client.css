@@ -1,0 +1,24 @@
+.OurClints{
+    margin: 5px 0 5px 5px;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   box-shadow: -2px 1px 3px 1px grey;
+   border-radius: 15px;
+   padding: 3px;
+}
+.clientimage{
+    display: flex;
+}
+.clientimage img{
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.clientinfo p{
+    font-size: 12px;
+}
+.Clientmessage i{
+    margin: 5px 8px 0 0;
+}

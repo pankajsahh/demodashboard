@@ -1,5 +1,6 @@
 import { MDBBreadcrumb, MDBBreadcrumbItem, MDBContainer, MDBNavbar } from 'mdb-react-ui-kit';
 import React from 'react'
+import Ourclients from '../../components/clientList/OurClient';
 import ActivityGraph from '../../components/graph/ActivityGraph';
 import ChartsPage from '../../components/userinfo/DonutChart';
 import Costomerreview from '../../components/userinfo/UserInfo';
@@ -52,24 +53,34 @@ const Dashboard = () => {
                     </div>
                 </div>
                 <div className="FeaturesBuilding">
-                    <div className="ProfileFollow">
-                        <Portfolio/>
+                    <div>
+                        <div className="ProfileFollow">
+                            <Portfolio />
+                        </div>
+                        <div className="OurClient">
+                            <Ourclients />
+                        </div>
                     </div>
-                    <div className="TaskManager">
-                        something
+                    <div className="div">
+                        <div className="ShirtSelling">
+                            something
+                        </div>
+                        <div className="TwitterFollow">
+                            something
+                        </div>
+
                     </div>
-                    <div className="OurClient">
-                        something
+                    <div className="div">
+                        <div className="ShirtSelling">
+                            something
+                        </div>
+                        <div className="TwitterFollow">
+                            something
+                        </div>
+
                     </div>
-                    <div className="ShirtSelling">
-                        something
-                    </div>
-                    <div className="TwitterFollow">
-                        something
-                    </div>
-                    <div className="ClientChat">
-                        something
-                    </div>
+
+
                 </div>
 
             </div>

@@ -1,0 +1,20 @@
+.OurClintsList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ClientHeader{
+    padding: 15px;
+}
+.clientsearch {
+    width: 15rem;
+    border-radius: 20px;
+}
+.OurClintsList ul{
+    width: 80%;
+    padding-left: 0px !important;
+}
+.OurClintsList ul li{
+    list-style: none;
+    width: 100%;
+}

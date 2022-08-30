@@ -2,7 +2,7 @@ import { MDBIcon } from "mdb-react-ui-kit";
 import React from "react";
 import './UseInfo.css'
 const Costomerreview = ({props})=>{
-    console.log(props)
+  
     const {name,number,image} = props;
     return (
         <div className="Userupdates">

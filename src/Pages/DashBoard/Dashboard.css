@@ -54,46 +54,34 @@
    font-size: 12px !important;
 }
 .FeaturesBuilding{
-    border: 1px solid red;
-
-    margin: 15px;
     display: flex;
     flex-wrap: wrap;
 }
 .ProfileFollow{
-    border: 1px solid red;
-margin:5px;
-    width: 18em;
-    flex: 0 0 32.333333%;
+    /* border: 1px solid red; */
+    margin: 15px 10px;
+    width: 20em;
     background-color: white;
 }
 .TaskManager{
-    border: 1px solid red;
-margin:5px;
-    flex: 0 0 32.333333%;
-    width: 18em;
+    margin: 15px 10px;
+    width: 20em;
+    background-color: white;
 }
 .OurClient{
-    flex: 0 0 32.333333%;
-    border: 1px solid red;
-margin:5px;
-    width: 18em;
+    margin: 15px 10px;
+    width: 20em;
+    background-color: white;
 }
 .ShirtSelling{
-    flex: 0 0 32.333333%;
-    border: 1px solid red;
-margin:5px;
-    width: 18em;
+    margin: 15px 10px;
+    width: 20em;
+    height: 17em;
+    background-color: white;
 }
 .TwitterFollow{
-    flex: 0 0 32.333333%;
-    border: 1px solid red;
-margin:5px;
-    width: 18em;
-}
-.ClientChat{
-    flex: 0 0 32.333333%;
-    border: 1px solid red;
-margin:5px;
-    width: 18em;
+    margin: 15px 10px;
+    width: 20em;
+    height: 20em;
+    background-color: white;
 }
