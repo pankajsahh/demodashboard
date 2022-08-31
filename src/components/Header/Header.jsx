@@ -54,7 +54,7 @@ export default function App() {
           <MDBIcon icon="bars" fas />
 
         </MDBNavbarToggler>
-          <div>
+        <div>
           <MDBNavbarNav>
             <MDBNavbarItem className="newTask ms-4 me-4">
               <MDBIcon fas icon="plus" /> New task
@@ -63,14 +63,14 @@ export default function App() {
               <MDBIcon fas icon="cloud-upload-alt" /> upload file
             </MDBNavbarItem>
           </MDBNavbarNav>
-          </div>
-          <div>
+        </div>
+        <div>
 
           <MDBIcon fab className="m-3 " icon="instagram" size="2x" />
           <MDBIcon fab className="m-3" icon="facebook" size="2x" />
           <MDBIcon fas className="m-3" icon="cog" size="2x" />
-        
-          </div>
+
+        </div>
 
 
 
