@@ -11,7 +11,7 @@ const SideBar = () => {
   return (
     <div className="PopingSideBar">
       <div className={`displayPictur ${sidebar?"":"displayPicturhide"}`}>
-      <button onClick={flip } className={ `${sidebar?" commoncross rotatecross":"commoncross"}`} ><i class="fas fa-times"></i></button>
+      <button onClick={flip } className={ `${sidebar?" commoncross rotatecross":"commoncross"}`} ><i className="fas fa-times"></i></button>
         <div className="UserDetails">
           <div className="imageProfile">
             <img
