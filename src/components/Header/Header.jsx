@@ -32,10 +32,10 @@ export default function App() {
           />
           Electric
         </MDBNavbarBrand>
-        <MDBInputGroup tag="form" className="d-flex w-auto   ms-5">
+        <MDBInputGroup tag="form" className="inputcontrl d-flex w-auto   ms-5">
           <MDBInput
             size="sm"
-            className="form-control "
+            className="  form-control "
             placeholder="Search here"
             type="Search"
           />
@@ -50,6 +50,7 @@ export default function App() {
           aria-expanded="false"
           aria-label="Toggle navigation"
           onClick={toggleside}
+          className ={`${sidebar?" commonprop hidebars":"commonprop"}`}
         >
           <MDBIcon icon="bars" fas />
 

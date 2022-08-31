@@ -3,7 +3,7 @@ import Context from "./context"
 
 const Store = (props)=>{
 
-    const [sidebar,setsidebar] = useState(true);
+    const [sidebar,setsidebar] = useState(false);
    
 
 

@@ -13,5 +13,14 @@ color: blue;
         border: none;
         border-radius: 4px;
     }
-    
+    .inputcontrl {
+        z-index: 0 !important;
+    }
+    .commonprop i{
+        transition: all 0.5s ease-in-out;
+    }
+    .hidebars i{
+        transform: rotate(90deg) ;
+        opacity: 0;
+    }
 }
