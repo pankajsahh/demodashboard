@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import {
   MDBContainer,
   MDBNavbar,
@@ -6,7 +6,6 @@ import {
   MDBNavbarToggler,
   MDBNavbarNav,
   MDBNavbarItem,
-  MDBCollapse,
   MDBIcon,
   MDBBtn,
   MDBInputGroup,
@@ -15,10 +14,9 @@ import {
 import "./Header.css";
 import Context from "../../source/context";
 export default function App() {
-  const [showNav, setShowNav] = useState(false);
-  const {sidebar,setsidebar} = useContext(Context);
+  const { sidebar, setsidebar } = useContext(Context);
 
-  const toggleside = ()=>{
+  const toggleside = () => {
     setsidebar(!sidebar)
   }
 
@@ -44,18 +42,19 @@ export default function App() {
           <MDBBtn rippleColor="success" color="dark">
             <MDBIcon fas icon="search" />
           </MDBBtn>
+
         </MDBInputGroup>
-        <button onClick={toggleside} className="MenuOpner m-4"><MDBIcon far icon="caret-square-down" /> menu</button>
+
         <MDBNavbarToggler
           type="button"
           aria-expanded="false"
           aria-label="Toggle navigation"
-          onClick={() => setShowNav(!showNav)}
+          onClick={toggleside}
         >
           <MDBIcon icon="bars" fas />
 
         </MDBNavbarToggler>
-        <MDBCollapse navbar show={showNav}>
+          <div>
           <MDBNavbarNav>
             <MDBNavbarItem className="newTask ms-4 me-4">
               <MDBIcon fas icon="plus" /> New task
@@ -64,13 +63,14 @@ export default function App() {
               <MDBIcon fas icon="cloud-upload-alt" /> upload file
             </MDBNavbarItem>
           </MDBNavbarNav>
-
+          </div>
+          <div>
 
           <MDBIcon fab className="m-3 " icon="instagram" size="2x" />
           <MDBIcon fab className="m-3" icon="facebook" size="2x" />
           <MDBIcon fas className="m-3" icon="cog" size="2x" />
-
-        </MDBCollapse>
+        
+          </div>
 
 
 

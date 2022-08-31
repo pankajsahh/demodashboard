@@ -1,31 +1,51 @@
 .displayPictur{
-    width: fit-content;
     padding: 12px;
     background: rgb(244,241,241);
     background: linear-gradient(0deg, rgba(244,241,241,1) 37%, rgba(198,192,192,1) 100%);
 }
+.displayPictur button{
+    display: none;
+}
 
 @media only screen and (max-width: 600px) {
+    .displayPictur button{
+        display: block;
+        
+    }
     .displayPicturhide{
         display: none;
     }
     .displayPictur{
-      
         position: relative;
+        
         background: rgb(244,241,241);
         background: linear-gradient(0deg, rgba(244,241,241,1) 37%, rgba(198,192,192,1) 100%);
         z-index: 1;
-
     }
-    
+    .displayPictur button{
+        position: absolute;
+        right: 10px;
+        background-color: rgba(245, 222, 179, 0);
+        border: none;
+    }
+
+
+
+
 }
 
 .imageProfile img{
-    width: 100px;
+    width: 50px;
+    height: 50px;
     border-radius: 30px;
 }
-.SideBarUsername{
-    margin-left: 5px;
+.SideBarUsername p{
+    font-size: small;
+    margin: 0;
+}
+.SideBarUsername b{
+    font-size: 12px;
+
 }
 .SideBarUsername b i{
     color: rgb(84, 211, 84);
@@ -33,6 +53,8 @@
 .UserDetails{
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 
 }
 .SideBarUsername,.imageProfile{
@@ -44,4 +66,10 @@
     margin: 15px;
     border-radius: 10px;
     padding: 8px;
+   
+}
+
+.MainLinks{
+    font-size: small;
+    
 }

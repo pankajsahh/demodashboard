@@ -3,10 +3,15 @@ import React, { useContext } from "react";
 import Context from "../../source/context";
 import "./SideBar.css";
 const SideBar = () => {
-  const { sidebar } = useContext(Context);
+  const { sidebar ,setsidebar } = useContext(Context);
+
+  function flip(){
+  setsidebar(!sidebar);
+  }
   return (
     <div className="PopingSideBar">
       <div className={`displayPictur ${sidebar?"displayPicturhide":""}`}>
+      <button onClick={flip}><i class="fas fa-times"></i></button>
         <div className="UserDetails">
           <div className="imageProfile">
             <img
@@ -15,14 +20,15 @@ const SideBar = () => {
             />
           </div>
           <div className="SideBarUsername">
-           <br /> <span>John doe</span><br />
-            <span>Web coder</span><br />
+            <p>John doe</p>
+            <p>Web coder</p>
             <b>
               <MDBIcon size="sm" fas icon="circle" /> ONLINE
             </b>
           </div>
-
+          
         </div>
+
         <div className="MainLinks">
           <ul>
             <li><MDBIcon fas icon="tachometer-alt" /> DashBoard</li>
